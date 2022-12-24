@@ -1,93 +1,86 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <!-- こちらはコメントです。-->
-    <meta charset="utf-8">
-    <title> sada 練習用page❶</title>
-    <meta name="description" content="プログラミング練習です">
-    <meta name="keywords" content="iri,sada,akbar,iri-1">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="img/sada.png">
-  </head>
-<header>
-  <img src="img/sada.png" width="300" height="250" alt="目のアイコンです！">
-</header>
-<main>
-  <body>
-    <h1>伊里　HTML練習用ページ　ようこそ</h1>
-    <p>プログラミング学習サービスですプログラミング学習サービスですプログラミング学習すプログラミング学習サービスです<strong>すごいサービスです！</strong></p>
-    <p>「<a href="/mycss/index.html"> my css page にに行ってみる</a>』！</p>
-    <h2>このサービスについて</h2>
-    <h2>科目</h2>
-    <h2>応用編</h2>
-  
-    <blockquote cite="https://dotinstal.com">
-    </p>htmlはこれから勉強していきます<a href="#over">終わり編に行く</a></p>
-    <p><a href="#inportnt">重要ポイント</a></p>
-    </blockquote>
-    <section> 
-      <h2>表作成</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>年</th>
-            <th>出来事</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>2022 2</td>
-            <td>太陽光発電設置</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    <hr>
-    <p> <a href="https://dotinstall.com" target="_blank">勉強　HP❶のページ</a>です！</p>
-    <p>こちらは<a href="menbers.html">メンバー紹介ページ</a>です！</p>
-    <p>こちらは「<a href="lessons/index.html">レッスン一覧</a>』もご覧ください！</p>
-    <p>こちらは「<a href="index2.html">index2 </a>』もご覧ください！</p>
-    <h2 id="inportnt">重要ポイント</h2>
-    <nav>
-      <ul>
-        <li>プログラミング</li>
-        <li>学習サービスです</li>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="IRI の自己紹介">
+  <link rel="stylesheet" href="style.css">
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <header>
+    <h1 class="block-header">
+      <a href="">
+        <span class="color-green">P</span>ortfolio
+      </a>
+    </h1>
+  </header>
+  <div class="block-main">
+    <div class="box-profile">
+      <h2 class="sub-title">
+        <span class="color-green">P</span>ortfolio
+      </h2>
+      <div class="item-list">
+        <img src="img/profile.png" alt="プロフィール画像">
+        <b>伊里 アクバル</b>
+        <p class="color-green">HTML / CSS / PHP / MySQL / Laravel / Adobe XD</p>
+        <p> ここのテキストが入ります。ここのテキストが入ります。ここのテキストが入ります。ここのテキストが入ります。ここのテキストが入ります。</p>
+      </div>
+      <ul class="icon-list">
+        <li>
+          <a href="">
+            <img src="img/github.png" alt="Githubのアイコン">
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="img/twitter.png" alt="twitterのアイコン">
+          </a>
+        </li>
       </ul>
-      <ol>
-        <li>プログラミング</li>
-        <li>プログラミング</li>
-      </ol>
-      <dl>
-        <dt>質問１</dt>
-        <dd>回答１</dd>
-        <dt>質問２</dt>
-        <dd>回答２</dd> 
-      </dl>
-    </nav>
-    
-    <h2 id="over">終わり編</h2>
-    <pre>
-      <code>
-        &lt;p&gt;学習サービスです
-        プログラミング学習サービスですプログラミング学習サービスです&lt;/p&gt;
-        &lt;p&gt;プログラミング学習サービスですプログラミング学習サービスです&lt;/p&gt;
-      </code>
-    </pre>
-    プログラミング学習サービスですプログラミング学習サービスです
-    <p>プログラミング学習サービスですプログラミング学習サービスです</p>
-    <p>プログラミング学習サービスです！</p>
-    <aside>
-      <h2>広告</h2>
-      <p>広告です！広告です！広告です！広告です！広告です！広告です！広告です！広告です！広告です！広告です！広告です！広告です！広告です！広告です！広告です！</p>
-    </aside>
-    <footer>
-      <p><a href="#">先頭へ戻る</a></p>
-    </footer>
-  </body>
-</main>
+    </div>
+    <div class="box-works">
+      <h2 class="sub-title">
+        <span class="color-green">W</span>roks</h2>
+      <ul class="works-list">
+        <li>
+          <img src="img/work_1.jpeg" alt="worksの画像">
+          <h3>Twitterクローン</h3>
+          <span>HTML / CSS / PHP / MySQL</span>
+          <div class="link">
+            <a href="#"> Web サイト</a>
+            <a href="#"> Github</a>
+          </div>
+        </li>
+        <li>
+          <img src="img/work_1.jpeg" alt="worksの画像">
+          <h3>Twitterクローン</h3>
+          <span>HTML / CSS / PHP / MySQL</span>
+          <div class="link">
+            <a href="#"> Web サイト</a>
+            <a href="#"> Github</a>
+          </div>
+        </li>
+        <li>
+          <img src="img/work_1.jpeg" alt="worksの画像">
+          <h3>Twitterクローン</h3>
+          <span>HTML / CSS / PHP / MySQL</span>
+          <div class="link">
+            <a href="#"> Web サイト</a>
+            <a href="#"> Github</a>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+
+  </div>
+  <footer class="block-footer">
+<p>Copyright @ IRI AKBAR ., Inc. </p>
+  </footer>
+</body>
+
 </html>
-
-
-
-
-
